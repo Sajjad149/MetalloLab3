@@ -12,7 +12,7 @@ class MetalloLabApp extends StatelessWidget {
       useMaterial3: true,
       brightness: Brightness.dark,
       scaffoldBackgroundColor: const Color(0xFF0B1020),
-      colorScheme: ColorScheme.fromSeed(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         seedColor: const Color(0xFF36C5F0),
         brightness: Brightness.dark,
       ),
